@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Real.css";
+// import './App.css';
+import FormControl from "./Components/FormControl";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="upperSite">
+        <h1>CONTACT US</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          LET’S CONNECT: WE’RE HERE TO HELP, AND WE’D LOVE TO HEAR FROM YOU!
+          WHETHER YOU HAVE A QUESTION, COMMENT, OR JUST WANT TO CHAT , YOU CAN
+          REACH OUT TO US THROUGH THE CONTACT FORM OF THIS PAGE, OR BY PHONE,
+          EMAIL, OR SOCIAL MEDIA.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
+      <FormControl />
     </div>
   );
 }

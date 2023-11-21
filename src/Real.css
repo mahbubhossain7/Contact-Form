@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.upperSite{
+    margin: 20px;
+    margin-bottom: 25px;
+    max-width: 75%;
+    padding: 10px;
+}
+.upperSite h1{
+    margin: 7px;
+    color: crimson;
+}
+.upperSite p{
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 12px;
+    color: antiquewhite;
+}
+.form-control{
+    display: flex;
+    margin: 20px;
+}
+.form-content{
+    margin-top: 80px;
+    padding: 15px;
+}
+.top-btn{
+    display:flex;
+    gap: 16px;
+    margin-bottom: 16px;
+        
+}
+.same{
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    background-color: cyan;
+    color:white;
+    font-weight: 700;
+}
+
+.ebtn{
+     background-color: cadetblue;
+     color: tomato;
+    padding: 5px;
+    font-weight: 700;
+    width: 315px;
+    height: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.inputFiled{
+    margin: 8px;
+    
+}
+.inpu{
+    border: 2px solid greenyellow;
+    text-align: center;
+    width: 280px;
+    height: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.tfield{
+    height: 60px;
+}
+.su-btn{
+    padding: 5px;
+    width: 120px;
+    font-weight: 700;
+    background-color: violet;
+    border: greenyellow;
+    border-radius: 5px;
+    color: white;
+}
+.submitbtn{
+    margin-left: 180px;
+}
+
+.form-control img{
+     width: 600px;
+     height: 500px;
+     margin: 10px;
+     padding: 10px;
+}
